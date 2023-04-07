@@ -12,5 +12,5 @@ A web-based application to help in providing safety for women across India. The 
 4. Find Hospitals within 2.5 km range: This functionality asks the user’s location and displays a map with all hospitals in the range of 2.5km. On clicking on the hospital marking on the map, the user is directed to google map’s page where the route to the hospital is displayed. 
 
 #Other functionalities
-login, signup, contact us, page with all the women rights
+login, signup, contact us, page with all the women rights.
 
