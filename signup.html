@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V3</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+	<style>
+		body {
+			font-family: Calibri, Helvetica, sans-serif;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			}
+
+		button { 
+				background-color: #F55A5A; 
+				width: 100%;
+					color: white; 
+					padding: 15px; 
+					margin: 10px 0px; 
+					border: none; 
+					cursor: pointer; 
+					} 
+			
+		.form1 { 
+			margin-top: 10px;
+					border: 3px solid #f1f1f1;
+					border-radius: 10px;
+					background-color: white;
+					padding: 25px;
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+				} 
+		.form2{
+			margin-top: 10px;
+					border: 3px solid #f1f1f1;
+					border-radius: 10px;
+					background-color: white;
+					padding: 25px;
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+		.container { 
+        padding: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		gap: 50px;
+        } 
+		input{
+		width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid #F55A5A; 
+        box-sizing: border-box; 
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" ">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" method="get" action="main.php">
+					<div class="container">
+					
+					<div class="form1">
+					<div style="font-size: 24px; font-weight: 600; color: #F55A5A;text-align:center; margin-bottom: 5px;">User Details</div>
+					<br>
+					<label for="Name">Name:</label><br>
+					<input class="input100" type="text" name="name" placeholder="Name"><br>
+					
+					<label for="Username">Username:</label><br>
+					<input class="input100" type="text" name="id" placeholder="Username"><br>
+					
+					<label for="Password">Password:</label><br>
+					<input class="input100" type="password" name="pass" placeholder="Password"><br>
+					  
+					
+					<label for="dob">Date of Birth:</label><br>
+					<input class="input100" type="date" name="dob" placeholder="Date of Birth"><br>
+						
+					<label for="email">EmailID:</label><br>
+					<input class="input100" type="email" name="email" placeholder="EmailID"><br>
+			
+					<label for="Phone ">Phone Number:</label><br>
+					<input class="input100" type="tel" name="phno" placeholder="PhoneNo"><br>
+					
+					
+					<label for="Address">Address:</label><br>
+					<input class="input100" type="text" name="address" placeholder="Address"><br>
+				</div>
+				<div class="form2">
+					<div style="font-size: 24px; font-weight: 600; color: #F55A5A;text-align:center; margin-bottom: 5px;">Relative Details</div>
+					<br>
+					<label for="relname">Name of the Relative</label><br>
+					<input class="input100" type="text" name="relname" placeholder="Relative Name"><br>
+						
+					<label for="rel type">Relation with the User:</label><br>
+					<input class="input100" type="text" name="relation" placeholder="Relation"><br>
+					
+					<label for="rel no">Registered Phone Number of Relative:</label><br>
+					<input class="input100" type="tel" name="reltel" placeholder="Registered PhoneNo"><br>
+				
+					<label for="rel add">Address of The Relative:</label><br>
+					<input class="input100" type="text" name="reladdress" placeholder="Registered Address"><br><br>
+					
+					<div>
+						<button  name="sign">
+							SignUp
+						</button>
+					</div>
+					<div >
+						<span >
+							Already have an account?
+						</span>
+
+						<a href="login.html" >
+							Login In
+						</a>
+					</div>
+				</div>
+			</div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
